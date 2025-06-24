@@ -6,16 +6,14 @@
        
         /* Contenedor del carrusel con altura fija */
         .carousel-container {
-            max-width: 1200px;
-            margin: 0 auto;
+            max-width: 1200x;
             box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-            border-radius: 10px;
             overflow: hidden;
         }
 
         /* Altura fija para el carrusel */
         .carousel-inner {
-            height: 500px;
+            height: 420px;
         }
 
         /* Imágenes del carrusel */
@@ -56,9 +54,6 @@
         @media (max-width: 768px) {
             .carousel-inner {
                 height: 300px;
-            }
-            
-            .carousel-caption {
             }
             
             .carousel-caption h5 {
